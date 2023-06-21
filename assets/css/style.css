@@ -270,7 +270,7 @@ button:focus {
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li {
-  border-bottom: 1px dashed #0046c047;
+  border-bottom: 1px dashed #3677e647;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:last-child {
@@ -1829,7 +1829,7 @@ footer {
 
 .section-title-two span {
   display: inline-block;
-  color: #1d1e4f;
+  color: #314a8d;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 5px;
@@ -2146,8 +2146,8 @@ footer {
 
 .banner-item .common-btn-two .cmn-btn-right-two {
   background-color: transparent;
-  color: #1d1e4f;
-  border: 2px solid #1d1e4f;
+  color: #fff;
+  border: 2px solid #fff;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -2159,6 +2159,7 @@ footer {
 
 .banner-item .banner-right img {
   position: absolute;
+  
 }
 
 .banner-item .banner-right img:nth-child(1) {
