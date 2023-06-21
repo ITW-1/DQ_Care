@@ -24,7 +24,7 @@ a {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   text-decoration: none;
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 a:hover {
@@ -78,7 +78,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 99999;
-  background: #0046c0;
+  background: #1d1e4f;
 }
 
 .spinner {
@@ -156,7 +156,7 @@ button:focus {
 }
 
 .header-top-item .header-top-left ul li i {
-  color: #0046c0;
+  color: #1d1e4f;
   font-size: 18px;
   position: relative;
   top: 2px;
@@ -173,11 +173,11 @@ button:focus {
 }
 
 .header-top-item .header-top-left ul li a:hover {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .header-top-item .header-top-left ul li a i {
-  color: #0046c0;
+  color: #1d1e4f;
   font-size: 18px;
   position: relative;
   top: 2px;
@@ -212,13 +212,13 @@ button:focus {
   font-size: 16px;
   text-align: center;
   border: 1px solid transparent;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .header-top-item .header-top-right ul li a:hover {
-  color: #0046c0;
+  color: #1d1e4f;
   background-color: transparent;
-  border: 1px solid #0046c0;
+  border: 1px solid #1d1e4f;
 }
 
 .navbar-light .navbar-brand,
@@ -256,7 +256,7 @@ button:focus {
 }
 
 .main-nav nav .navbar-nav .nav-item:hover a {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -285,17 +285,17 @@ button:focus {
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover,
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus,
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a:hover,
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a:focus,
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover a.active {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .main-nav nav .navbar-nav .nav-item a {
@@ -308,7 +308,7 @@ button:focus {
 .main-nav nav .navbar-nav .nav-item a:hover,
 .main-nav nav .navbar-nav .nav-item a:focus,
 .main-nav nav .navbar-nav .nav-item a.active {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .search-icon {
@@ -317,7 +317,7 @@ button:focus {
   outline: none;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
-  color: #0046c0;
+  color: #1d1e4f;
   background-color: #d8e0e8;
   width: 40px;
   height: 40px;
@@ -365,7 +365,7 @@ button:focus {
   top: 22px;
   background-color: transparent;
   font-size: 20px;
-  color: #0046c0;
+  color: #1d1e4f;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
@@ -443,7 +443,7 @@ button:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   opacity: 0.8;
 }
 
@@ -471,7 +471,7 @@ button:focus {
 
 .common-btn a {
   display: inline-block;
-  color: #0046c0;
+  color: #1d1e4f;
   background-color: #fff;
   font-size: 15px;
   font-weight: 500;
@@ -500,7 +500,7 @@ button:focus {
 }
 
 .common-btn .cmn-btn-right:hover {
-  color: #0046c0;
+  color: #1d1e4f;
   background-color: #fff;
 }
 
@@ -559,7 +559,7 @@ button:focus {
   width: 20px;
   height: 5px;
   margin: 5px 4px;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
@@ -593,7 +593,7 @@ button:focus {
 
 .counter-item i {
   display: block;
-  color: #0046c0;
+  color: #1d1e4f;
   font-size: 45px;
   margin-bottom: 20px;
 }
@@ -601,7 +601,7 @@ button:focus {
 .counter-item h3 {
   font-weight: 700;
   font-size: 48px;
-  color: #0046c0;
+  color: #1d1e4f;
   margin-bottom: 8px;
 }
 
@@ -647,7 +647,7 @@ button:focus {
 .about-item ul li i {
   display: inline-block;
   margin-right: 10px;
-  color: #0046c0;
+  color: #1d1e4f;
   font-size: 23px;
   position: relative;
   top: 2px;
@@ -657,7 +657,7 @@ button:focus {
   display: inline-block;
   font-size: 15px;
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   font-weight: 500;
   padding: 20px 45px;
   border-radius: 5px;
@@ -691,7 +691,7 @@ button:focus {
   z-index: -1;
   -webkit-animation: a-one 5s infinite linear;
   animation: a-one 5s infinite linear;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .about-left:after {
@@ -705,7 +705,7 @@ button:focus {
   z-index: -1;
   -webkit-animation: a-two 5s infinite linear;
   animation: a-two 5s infinite linear;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 @-webkit-keyframes a-one {
@@ -845,7 +845,7 @@ button:focus {
   bottom: 0;
   width: 80px;
   height: 5px;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   border-radius: 5px;
 }
 
@@ -869,7 +869,7 @@ button:focus {
   left: 0;
   top: 0;
   opacity: 0.5;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   opacity: 0;
   z-index: -1;
   -webkit-transition: 0.5s all ease;
@@ -909,7 +909,7 @@ button:focus {
 
 .service-item .service-front i {
   display: block;
-  color: #4d93e9;
+  color: #1d1e4f;
   font-size: 65px;
   margin-bottom: 20px;
 }
@@ -958,7 +958,7 @@ button:focus {
 
 .service-item .service-end a {
   display: inline-block;
-  color: #0046c0;
+  color: #1d1e4f;
   background-color: #fff;
   padding: 12px 15px;
 }
@@ -977,7 +977,7 @@ button:focus {
 }
 
 .expertise-item .expertise-inner {
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   padding: 42px 25px 35px;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -996,7 +996,7 @@ button:focus {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  color: #0046c0;
+  color: #1d1e4f;
   font-size: 30px;
   margin-bottom: 35px;
   -webkit-box-shadow: 0 0 0 7px #ffffffa6;
@@ -1036,7 +1036,7 @@ button:focus {
   border-radius: 10px;
   -webkit-animation: a-one 5s infinite linear;
   animation: a-one 5s infinite linear;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .expertise-item .expertise-right:after {
@@ -1166,7 +1166,7 @@ button:focus {
 }
 
 .video-wrap .video-nav .video-nav-item a {
-  color: #4d93e9;
+  color: #2e376b;
   font-size: 16px;
   font-weight: 600;
   background-color: transparent;
@@ -1234,7 +1234,7 @@ button:focus {
 }
 
 .doctor-item .doctor-bottom h3 a:hover {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .doctor-item .doctor-bottom span {
@@ -1324,7 +1324,7 @@ button:focus {
 }
 
 .blog-item .blog-bottom h3 a:hover {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .blog-item .blog-bottom p {
@@ -1343,13 +1343,13 @@ button:focus {
 .blog-item .blog-bottom ul li {
   display: inline-block;
   list-style-type: none;
-  color: #0046c0;
+  color: #262646;
   font-weight: 500;
   font-size: 15px;
 }
 
 .blog-item .blog-bottom ul li i {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .blog-item .blog-bottom ul li:last-child {
@@ -1364,7 +1364,7 @@ button:focus {
 
 .blog-item .blog-bottom ul li a {
   display: block;
-  color: #0046c0;
+  color: #1d1e4f;
   font-weight: 500;
   font-size: 15px;
 }
@@ -1391,7 +1391,7 @@ footer {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: #0843aa;
+  background-color: #1d1e4f;
   padding-top: 75px;
   position: relative;
 }
@@ -1473,6 +1473,7 @@ footer {
 
 .footer-item .footer-contact ul li a:hover {
   margin-left: 5px;
+  
 }
 
 .footer-item .footer-contact ul li a:hover i {
@@ -1581,7 +1582,7 @@ footer {
   background-color: #fff;
   padding: 12px 35px;
   border-radius: 30px;
-  color: #0046c0;
+  color: #1d1e4f;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
@@ -1668,25 +1669,25 @@ footer {
 }
 
 .home-slider-two .slider-item .slider-text .common-btn a {
-  border: 2px solid #0046c0;
+  border: 2px solid #1d1e4f;
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   position: relative;
 }
 
 .home-slider-two .slider-item .slider-text .common-btn a:hover {
-  color: #0046c0;
+  color: #1d1e4f;
   background-color: transparent;
 }
 
 .home-slider-two .slider-item .slider-text .common-btn .cmn-btn-right {
   background-color: transparent;
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .home-slider-two .slider-item .slider-text .common-btn .cmn-btn-right:hover {
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .emergency-area {
@@ -1792,8 +1793,8 @@ footer {
   line-height: 70px;
   border-radius: 50%;
   color: #111;
-  -webkit-box-shadow: 0 0 0 10px #0046c0;
-  box-shadow: 0 0 0 10px #0046c0;
+  -webkit-box-shadow: 0 0 0 10px #1d1e4f;
+  box-shadow: 0 0 0 10px #1d1e4f;
   background-color: #f1f1f1;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
@@ -1828,7 +1829,7 @@ footer {
 
 .section-title-two span {
   display: inline-block;
-  color: #0046c0;
+  color: #1d1e4f;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 5px;
@@ -1860,7 +1861,7 @@ footer {
 
 .speciality-item .speciality-inner i {
   display: block;
-  color: #6096fd;
+  color: #30327a;
   background-color: #e9eef5;
   width: 40px;
   height: 40px;
@@ -1902,7 +1903,7 @@ footer {
   position: absolute;
   bottom: 20px;
   left: -70px;
-  background-color: #0046c0;
+  background-color:#1d1e4f;
   padding: 30px 295px 25px 40px;
   border-radius: 10px;
 }
@@ -1920,7 +1921,7 @@ footer {
 .speciality-right .speciality-emergency .speciality-icon i {
   display: inline-block;
   line-height: 45px;
-  color: #0046c0;
+  color: #1d1e4f;
   text-align: center;
   font-size: 20px;
   -webkit-transform: rotate(-45deg);
@@ -1963,7 +1964,7 @@ footer {
 }
 
 .video-wrap-two .video-item a {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .video-wrap-two .nav-pills .nav-link,
@@ -1974,7 +1975,7 @@ footer {
 .video-wrap-two .nav-pills .nav-link.active,
 .video-wrap-two .nav-pills .show > .nav-link {
   border-top: 0;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   color: #fff;
 }
 
@@ -2005,7 +2006,7 @@ footer {
 }
 
 .appointment-item h2 {
-  color: #0046c0;
+  color: #1d1e4f;
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 15px;
@@ -2027,7 +2028,7 @@ footer {
 
 .appointment-item .appointment-form .form-group i {
   display: inline-block;
-  color: #0046c0;
+  color: #1d1e4f;
   position: absolute;
   top: 11px;
   left: 0;
@@ -2076,7 +2077,7 @@ footer {
 
 .appointment-item .appointment-form .appointment-btn {
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   font-weight: 500;
   font-size: 15px;
   border-radius: 5px;
@@ -2124,7 +2125,7 @@ footer {
 .banner-item .common-btn-two a {
   display: inline-block;
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   font-size: 15px;
   font-weight: 500;
   padding: 12px 18px;
@@ -2135,8 +2136,8 @@ footer {
 
 .banner-item .common-btn-two a:hover {
   background-color: transparent;
-  border: 2px solid #0046c0;
-  color: #0046c0;
+  border: 2px solid #1d1e4f;
+  color: #1d1e4f;
 }
 
 .banner-item .common-btn-two a:last-child {
@@ -2145,15 +2146,15 @@ footer {
 
 .banner-item .common-btn-two .cmn-btn-right-two {
   background-color: transparent;
-  color: #0046c0;
-  border: 2px solid #0046c0;
+  color: #1d1e4f;
+  border: 2px solid #1d1e4f;
   padding-left: 25px;
   padding-right: 25px;
 }
 
 .banner-item .common-btn-two .cmn-btn-right-two:hover {
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .banner-item .banner-right img {
@@ -2358,7 +2359,7 @@ footer {
   height: 110px;
   line-height: 110px;
   border-radius: 50%;
-  color: #0046c0;
+  color: #1d1e4f;
   text-align: center;
   font-size: 32px;
   background-color: #fff;
@@ -2405,7 +2406,7 @@ footer {
 }
 
 .hospital-item ul li i {
-  color: #6096fd;
+  color: #30327a;
   font-size: 22px;
   margin-right: 8px;
   position: relative;
@@ -2415,7 +2416,7 @@ footer {
 .hospital-item .hospital-btn {
   display: inline-block;
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   border-radius: 10px;
   font-weight: 500;
   font-size: 15px;
@@ -2442,7 +2443,7 @@ footer {
   height: 380px;
   z-index: -1;
   border-radius: 10px;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .hospital-item .hospital-left-one img {
@@ -2466,7 +2467,7 @@ footer {
   height: 380px;
   z-index: -1;
   border-radius: 10px;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .hospital-item .hospital-left-two img {
@@ -2491,7 +2492,7 @@ footer {
   width: 405px;
   height: 300px;
   z-index: -1;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .welcome-left-two {
@@ -2507,6 +2508,7 @@ footer {
 .review-area {
   position: relative;
   background-image: url(../img/home-three/review-bg.png);
+  background-color: #1d1e4f;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2563,7 +2565,7 @@ footer {
 
 .slider-nav .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .slider-nav .slick-track {
@@ -2586,7 +2588,7 @@ footer {
   margin-bottom: 45px;
   width: 90px;
   height: 90px;
-  border: 3px solid #0046c0;
+  border: 3px solid #1d1e4f;
   border-radius: 50%;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
@@ -2602,7 +2604,7 @@ footer {
 
 .slider-nav div span {
   display: block;
-  color: #3776d0;
+  color: #3d3ea1;
 }
 
 .slick-slide .review-details {
@@ -2653,7 +2655,7 @@ footer {
   width: 100%;
   height: 100%;
   opacity: 0.5;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .page-title-item {
@@ -2730,7 +2732,7 @@ footer {
 
 .doctor-search-item .form-group i {
   display: inline-block;
-  color: #0046c0;
+  color: #1d1e4f;
   font-size: 45px;
   position: absolute;
   top: 8px;
@@ -2870,7 +2872,7 @@ footer {
 }
 
 .appointment-item-two-right .appointment-item-content h2 {
-  color: #0046c0;
+  color: #1d1e4f;
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 30px;
@@ -3035,7 +3037,7 @@ footer {
 
 .doctor-details-item .doctor-details-contact ul li i {
   display: inline-block;
-  color: #0046c0;
+  color: #1d1e4f;
   margin-right: 8px;
   font-size: 23px;
   position: relative;
@@ -3159,14 +3161,14 @@ footer {
 .blog-details-item .blog-details-img ul li {
   list-style-type: none;
   display: inline-block;
-  color: #3a5ed3;
+  color: #1c274a;
   font-size: 16px;
   margin-right: 50px;
 }
 
 .blog-details-item .blog-details-img ul li a {
   font-weight: 400;
-  color: #0046c0;
+  color: #1d1e4f;
   display: inline-block;
 }
 
@@ -3250,7 +3252,7 @@ footer {
 .blog-details-item .blog-details-search .form-control {
   height: 50px;
   border-radius: 6px;
-  border: 1px solid #0046c0;
+  border: 1px solid #1d1e4f;
   padding-left: 25px;
 }
 
@@ -3261,7 +3263,7 @@ footer {
 
 .blog-details-item .blog-details-search .blog-details-btn {
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   border-radius: 6px;
   position: absolute;
   top: 0;
@@ -3337,13 +3339,13 @@ footer {
 }
 
 .blog-details-item .blog-details-recent ul li a:hover {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .blog-details-item .blog-details-recent ul li ul li {
   display: inline-block;
   padding-left: 0;
-  color: #3a5ed3;
+  color: #1c274a;
   font-size: 15px;
   margin-right: 25px;
   padding-bottom: 0;
@@ -3351,7 +3353,7 @@ footer {
 
 .blog-details-item .blog-details-recent ul li ul li a {
   font-weight: 400;
-  color: #0046c0;
+  color: #1d1e4f;
   display: inline-block;
 }
 
@@ -3526,7 +3528,7 @@ footer {
   font-weight: 600;
   font-size: 15px;
   padding: 15px 34px;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
@@ -3592,7 +3594,7 @@ footer {
   text-align: center;
   font-size: 32px;
   margin-bottom: 25px;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .location-wrap .location-item h3 {
@@ -3682,7 +3684,7 @@ footer {
   padding: 14px 35px;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   -webkit-box-shadow: none;
   box-shadow: none;
   border: 0;
@@ -3755,8 +3757,8 @@ footer {
 
 .accordion li .faq-head.active {
   color: #fff;
-  background-color: #0046c0;
-  border: 1px solid #0046c0;
+  background-color: #1d1e4f;
+  border: 1px solid #1d1e4f;
 }
 
 .accordion li .faq-head.active:after {
@@ -3802,7 +3804,7 @@ footer {
 
 .accordion li .faq-content p a {
   display: inline-block;
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .accordion li .faq-content p a:hover {
@@ -3838,7 +3840,7 @@ footer {
 .error-item a {
   display: inline-block;
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   border-radius: 10px;
   padding: 20px 45px;
   margin-top: 70px;
@@ -3920,7 +3922,7 @@ footer {
 }
 
 .coming-item ul li a:hover {
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .testimonial-area {
@@ -3939,7 +3941,7 @@ footer {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   opacity: 0.5;
 }
 
@@ -3976,7 +3978,7 @@ footer {
 }
 
 .testimonial-area .testimonial-wrap .testimonial-slider .owl-prev:hover {
-  background-color: #0046c0 !important;
+  background-color: #1d1e4f !important;
 }
 
 .testimonial-area .testimonial-wrap .testimonial-slider .owl-next {
@@ -3992,7 +3994,7 @@ footer {
 }
 
 .testimonial-area .testimonial-wrap .testimonial-slider .owl-next:hover {
-  background-color: #0046c0 !important;
+  background-color: #1d1e4f !important;
 }
 
 .testimonial-area .testimonial-wrap .testimonial-slider .testimonial-item img {
@@ -4055,7 +4057,7 @@ footer {
   bottom: 0;
   width: 80px;
   height: 5px;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   border-radius: 5px;
 }
 
@@ -4067,7 +4069,7 @@ footer {
 
 .signup-item .signup-head p a {
   display: inline-block;
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .signup-item .signup-head p a:hover {
@@ -4086,7 +4088,7 @@ footer {
 }
 
 .signup-item .signup-form .form-group .form-control:focus {
-  border: 1px solid #0046c0;
+  border: 1px solid #1d1e4f;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -4104,7 +4106,7 @@ footer {
 
 .signup-item .signup-form .form-group .form-check label a {
   display: inline-block;
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .signup-item .signup-form .form-group .form-check label a:hover {
@@ -4130,16 +4132,16 @@ footer {
 .signup-item .signup-form .form-group .forgot-pass a {
   color: #4a6f8a;
   display: inline-block;
-  border-bottom: 2px solid #0046c0;
+  border-bottom: 2px solid #1d1e4f;
 }
 
 .signup-item .signup-form .form-group .forgot-pass a:hover {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .signup-item .signup-form .signup-btn {
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   width: 100%;
   display: block;
   border-radius: 5px;
@@ -4215,7 +4217,7 @@ footer {
 
 .department-item {
   text-align: center;
-  border: 1px solid #0046c0;
+  border: 1px solid #1d1e4f;
   padding-top: 30px;
   padding-bottom: 30px;
   -webkit-transition: 0.5s all ease;
@@ -4233,7 +4235,7 @@ footer {
   left: 0;
   top: 0;
   z-index: -1;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
@@ -4246,7 +4248,7 @@ footer {
   right: 0;
   top: 0;
   z-index: -1;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
@@ -4275,7 +4277,7 @@ footer {
   font-size: 45px;
   display: block;
   margin-bottom: 20px;
-  color: #0046c0;
+  color: #1d1e4f;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
@@ -4402,7 +4404,7 @@ blockquote span {
 }
 
 .back-to-top-btn i {
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   color: #fff;
   height: 50px;
   width: 50px;
@@ -4414,8 +4416,8 @@ blockquote span {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   margin-right: 28px;
-  -webkit-box-shadow: 0 0 14px 0 #0046c0;
-  box-shadow: 0 0 14px 0 #0046c0;
+  -webkit-box-shadow: 0 0 14px 0 #1d1e4f;
+  box-shadow: 0 0 14px 0 #1d1e4f;
 }
 
 .back-to-top-btn i:hover {
@@ -4569,7 +4571,7 @@ blockquote span {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   border-radius: 0 0 5px 5px;
   z-index: -1;
   -webkit-transition: 0.5s all ease;
@@ -4578,7 +4580,7 @@ blockquote span {
 
 .symptoms-content ul li span i {
   display: inline-block;
-  color: #0046c0;
+  color: #1d1e4f;
   font-size: 30px;
   position: absolute;
   top: 9px;
@@ -4667,7 +4669,7 @@ blockquote span {
 }
 
 .faq-area-two .accordion li .faq-head.active {
-  border: 1px solid #0046c0;
+  border: 1px solid #1d1e4f;
 }
 
 .faq-area-two .accordion li .faq-head:after {
@@ -4746,7 +4748,7 @@ blockquote span {
 
 .slider-item-three .slider-text .common-btn a {
   color: #fff;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .slider-item-three .slider-text .common-btn a:hover {
@@ -4756,14 +4758,14 @@ blockquote span {
 
 .slider-item-three .slider-text .common-btn .cmn-btn-right {
   background-color: transparent;
-  color: #0046c0;
-  border: 2px solid #0046c0;
+  color: #1d1e4f;
+  border: 2px solid #1d1e4f;
 }
 
 .slider-item-three .slider-text .common-btn .cmn-btn-right:hover {
-  background-color: #0046c0;
+  background-color: #1d1e4f;
   color: #fff;
-  border: 2px solid #0046c0;
+  border: 2px solid #1d1e4f;
 }
 
 .slider-item-three .slider-shape img {
