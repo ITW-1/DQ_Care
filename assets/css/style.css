@@ -264,13 +264,13 @@ button:focus {
   -webkit-box-shadow: 0 0 15px 0 #ddd;
   box-shadow: 0 0 15px 0 #ddd;
   border: 0;
-  border-left: 3px solid #0046c0;
+  border-left: 3px solid #1d1e4f;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li {
-  border-bottom: 1px dashed #0046c047;
+  border-bottom: 1px dashed #1d1e4f47;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:last-child {
@@ -1050,7 +1050,7 @@ button:focus {
   border-radius: 10px;
   -webkit-animation: a-two 5s infinite linear;
   animation: a-two 5s infinite linear;
-  background-color: #0046c0;
+  background-color: #1d1e4f;
 }
 
 .expertise-item .expertise-right img {
@@ -1343,7 +1343,7 @@ button:focus {
 .blog-item .blog-bottom ul li {
   display: inline-block;
   list-style-type: none;
-  color: #262646;
+  color: #1d1e4f;
   font-weight: 500;
   font-size: 15px;
 }
@@ -1473,7 +1473,6 @@ footer {
 
 .footer-item .footer-contact ul li a:hover {
   margin-left: 5px;
-  
 }
 
 .footer-item .footer-contact ul li a:hover i {
@@ -1615,7 +1614,7 @@ footer {
 }
 
 .copyright-area .copyright-item p a:hover {
-  color: #0046c0;
+  color: #1d1e4f;
 }
 
 .home-slider-two.owl-theme .owl-dots .owl-dot.active span,
@@ -2045,7 +2044,7 @@ footer {
 .appointment-item .appointment-form .form-group .form-control {
   border-radius: 0;
   border: 0;
-  border-bottom: 1px solid #0046c09e;
+  border-bottom: 1px solid #1d1e4f9e;
   font-size: 15px;
   padding-left: 0;
   padding-bottom: 8px;
@@ -2056,7 +2055,7 @@ footer {
 .appointment-item .appointment-form .form-group .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-bottom: 1px solid #0046c09e;
+  border-bottom: 1px solid #1d1e4f9e;
 }
 
 .appointment-item .appointment-form .form-group ::-webkit-input-placeholder {
@@ -2635,14 +2634,14 @@ footer {
 }
 
 .page-title-one {
-  background-image: url(../img/doctor/1.jpg);
+  background-image: url(../img/cover/01.jpg);
 }
 
 .page-title-area {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 300px;
   text-align: center;
   position: relative;
 }
@@ -2822,12 +2821,7 @@ footer {
 }
 
 .page-title-two {
-  background-image: url(../img/appointment/1.jpg);
-  height: 440px;
-}
-
-.page-title-two .page-title-item {
-  margin-top: -135px;
+  background-image: url(../img/cover/02.jpg)
 }
 
 .appointment-area-two {
@@ -2951,13 +2945,9 @@ footer {
 }
 
 .page-title-three {
-  background-image: url(../img/doctor/1.jpg);
-  height: 460px;
+  background-image: url(../img/cover/03.jpg);
 }
 
-.page-title-three .d-table-cell {
-  vertical-align: bottom;
-}
 
 .page-title-item-two {
   position: relative;
@@ -3125,11 +3115,11 @@ footer {
 }
 
 .page-title-four {
-  background-image: url(../img/blog/1.jpg);
+  background-image: url(../img/cover/04.jpg);
 }
 
-.page-title-four .page-title-item {
-  margin-top: 0;
+.page-title-six {
+  background-image: url(../img/cover/05.jpg);
 }
 
 .blog-details-area {
