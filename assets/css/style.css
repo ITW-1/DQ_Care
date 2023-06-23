@@ -270,7 +270,7 @@ button:focus {
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li {
-  border-bottom: 1px dashed #1d1e4f47;
+  border-bottom: 1px dashed #3677e647;
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li:last-child {
@@ -1343,7 +1343,7 @@ button:focus {
 .blog-item .blog-bottom ul li {
   display: inline-block;
   list-style-type: none;
-  color: #1d1e4f;
+  color: #262646;
   font-weight: 500;
   font-size: 15px;
 }
@@ -1792,8 +1792,8 @@ footer {
   line-height: 70px;
   border-radius: 50%;
   color: #111;
-  -webkit-box-shadow: 0 0 0 10px #1d1e4f;
-  box-shadow: 0 0 0 10px #1d1e4f;
+  -webkit-box-shadow: 0 0 0 10px #6666FF;
+  box-shadow: 0 0 0 10px #6666FF;
   background-color: #f1f1f1;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
@@ -1828,7 +1828,7 @@ footer {
 
 .section-title-two span {
   display: inline-block;
-  color: #1d1e4f;
+  color: #314a8d;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 5px;
