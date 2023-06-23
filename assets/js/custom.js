@@ -194,11 +194,9 @@ jQuery(
       url: "https://envytheme.us20.list-manage.com/subscribe/post?u=60e1ffe2e8a68ce1204cd39a5&amp;id=42d6d188d9",
       callback: callbackFunction,
     });
-    $("body").append(
-      "<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>"
-    );
   })(jQuery)
 );
+
 const logoLight = document.querySelector(".icon-light");
 const logoDark = document.querySelector(".icon-dark");
 function setTheme(themeName) {

@@ -1,8 +1,5 @@
-.switch-box {
-  position: fixed;
-  top: 150px;
-  right: 60px;
-  z-index: 9999;
+.switch-box { 
+  margin-left: 10px;
 }
 .switch-box .slider {
   position: absolute;
