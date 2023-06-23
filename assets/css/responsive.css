@@ -781,13 +781,15 @@
     }
 
     .banner-item h1 {
-        font-size: 26px;
+        font-size: 23px;
         margin-bottom: 20px;
-        padding-top: 280px
+        padding-top: 275px;
+        text-align: center;
     }
 
     .banner-item p {
-        margin-bottom: 30px
+        margin-bottom: 30px;
+        text-align: center;
     }
 
     .banner-item .common-btn-two a {
