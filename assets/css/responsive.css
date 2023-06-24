@@ -318,11 +318,11 @@
     padding-bottom: 18px;
   }
   .doctor-item .doctor-bottom h3 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 8px;
   }
   .doctor-item .doctor-bottom span {
-    font-size: 14px;
+    font-size: 15px;
   }
   .doctor-btn a {
     margin-top: 5px;
@@ -543,7 +543,6 @@
   }
   .speciality-right {
     height: auto;
-    background-image: unset;
   }
   .speciality-right:before {
     display: none;

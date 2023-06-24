@@ -1225,10 +1225,10 @@ button:focus {
   padding-bottom: 25px;
 }
 
-.doctor-item .doctor-bottom h3 a {
+.doctor-item .doctor-bottom h3 {
   display: block;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: #232323;
 }
@@ -1903,11 +1903,11 @@ footer {
 }
 
 .speciality-right {
-  background-image: url(../img/home-two/4.jpg);
-  background-size: cover;
-  background-position: center center;
+  background-image: url(../img/home-two/DigitalHealthcare.jpg);
+  background-size:contain;
   background-repeat: no-repeat;
   border-radius: 10px 0 0 10px;
+  background-position: center;
   position: relative;
   width: 100%;
   height: 100%;
@@ -2180,9 +2180,9 @@ footer {
 }
 
 .banner-item .banner-right img:nth-child(1) {
-  top: -125px;
-  right: 10px;
-  max-width: 510px;
+  top: -83px;
+  right: 80px;
+  max-width: 360px;
   z-index: 1;
   margin-left: auto;
   margin-right: auto;
@@ -2505,10 +2505,10 @@ footer {
 .speciality-right-two:before {
   position: absolute;
   content: "";
-  top: -25px;
+  top: 120px;
   right: 0;
-  width: 405px;
-  height: 300px;
+  width: 600px;
+  height: 500px;
   z-index: -1;
   background-color: #1d1e4f;
 }
