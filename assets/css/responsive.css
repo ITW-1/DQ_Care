@@ -510,8 +510,12 @@
     }
 
     footer {
-        padding-top: 170px
+        padding-top: 20px
     }
+
+    .footer-item .footer-contact img {
+        margin: 0 auto;
+      }
 
     .footer-item .footer-contact h3 {
         font-size: 18px;
