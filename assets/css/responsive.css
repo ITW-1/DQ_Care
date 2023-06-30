@@ -330,7 +330,7 @@
     padding: 12px 35px;
   }
   .blog-area {
-    padding-bottom: 135px;
+    padding-bottom: 20px;
   }
   .blog-item .blog-bottom {
     padding-top: 25px;
@@ -1304,7 +1304,7 @@
     width: 45px;
     line-height: 45px;
     font-size: 22px;
-    margin-right: 10px;
+    margin-right: 20px;
   }
   .appointment-area-two {
     padding-top: 60px;
@@ -2772,7 +2772,28 @@
     background: transparent;
   }
 
-  .navbar-expand-md .navbar-collapse {
+  .collapse {
+    position: absolute;
+    top: 100%;
+    right: 2%;
+    width: 270px;
+    height: 29vh;
+    background: #0046c0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    transition: all .50s ease;
+  }
+
+  .collapse navbar-collapse navbar-nav{
+    display: block;
+    margin: 12px 0;
+    padding: 0px 25px;
+    transition: all .50s ease;
+  }
+
+  /* .navbar-expand-md .navbar-collapse {
     display: none !important;
     position: absolute;
     top: 100%;
@@ -2842,7 +2863,7 @@
   }
   .mean-container .mean-nav ul li a.mean-expand {
     margin-top: 0;
-  }
+  } */
 }
 @media only screen and (min-width: 1800px) {
   .service-item {
