@@ -409,6 +409,11 @@
   footer {
     padding-top: 20px;
   }
+
+  .footer-row{
+    display: block;
+  }
+
   .footer-item .footer-contact h3 {
     font-size: 18px;
     margin-bottom: 30px;
@@ -1760,7 +1765,7 @@
     font-size: 15px;
   }
   footer {
-    padding-top: 165px;
+    padding-top: 40px;
   }
   .footer-item .footer-contact h3 {
     font-size: 20px;
@@ -2758,9 +2763,9 @@
   display: none;
 }
 
-.navbar-expand-md .navbar-collapse {
+/* .navbar-expand-md .navbar-collapse {
   display: flex !important;
-}
+} */
 
 @media only screen and (max-width: 991px) {
   .navbar-expand-md .navbar-toggler {
@@ -2871,6 +2876,11 @@
   .mean-container .mean-nav ul li a.mean-expand {
     margin-top: 0;
   } */
+
+  .footer-row{
+    display: block;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 1800px) {
   .service-item {
