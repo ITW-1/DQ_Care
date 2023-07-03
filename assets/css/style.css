@@ -1230,7 +1230,7 @@ button:focus {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 10px;
-  color: #232323;
+  color: #4f4c4c;
 }
 
 .doctor-item .doctor-bottom h3 a:hover {
@@ -1266,7 +1266,7 @@ button:focus {
 .blog-area {
   background-color: #f8fbff;
   position: relative;
-  padding-bottom: 180px;
+  padding-bottom: 40px;
 }
 
 .blog-item {
@@ -1384,6 +1384,58 @@ button:focus {
   top: 4px;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
+}
+
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #1d1e4f;
+  padding-bottom: 40px;
+}
+
+.form-title {
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Add some padding and a grey background color to containers */
+.container-area {
+  padding: 5px;
+  background-color: #212d6b;
+}
+
+/* Style the input elements and the submit button */
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 15px 0;
+  display: inline-block;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #1d1e4f;
+  color: #fff;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
 }
 
 footer {
@@ -2164,8 +2216,8 @@ footer {
 
 .banner-item .common-btn-two .cmn-btn-right-two {
   background-color: transparent;
-  color: #1d1e4f;
-  border: 2px solid #1d1e4f;
+  color: #fff;
+  border: 2px solid #fff;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -2455,7 +2507,7 @@ footer {
 .hospital-item .hospital-left-one:before {
   position: absolute;
   content: "";
-  right: -17px;
+  right: -15px;
   bottom: -15px;
   width: 430px;
   height: 380px;
@@ -2479,7 +2531,7 @@ footer {
 .hospital-item .hospital-left-two:before {
   position: absolute;
   content: "";
-  left: -17px;
+  left: -15px;
   top: -15px;
   width: 295px;
   height: 380px;
@@ -3550,7 +3602,7 @@ footer {
 }
 
 .blog-area-two {
-  padding-bottom: 180px;
+  padding-bottom: 5px;
 }
 
 .blog-area-two .section-title {
