@@ -226,6 +226,16 @@ button:focus {
   width: 180px;
 }
 
+.navbar-toggler{
+  display: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.icofont-close {
+  display: none;
+}
+
 .icon-dark {
   display: none;
 }
@@ -1389,7 +1399,7 @@ button:focus {
 /* Style the form element with a border around it */
 form {
   border: 4px solid #1d1e4f;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .form-title {

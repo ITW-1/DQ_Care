@@ -2776,24 +2776,31 @@
     position: absolute;
     top: 100%;
     right: 2%;
-    width: 270px;
-    height: 29vh;
+    width: 180px;
+    height: 240px;
     background: #0046c0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     border-radius: 10px;
     transition: all .50s ease;
   }
 
-  .collapse navbar-collapse navbar-nav{
+  .navbar-nav{
     display: block;
     margin: 12px 0;
     padding: 0px 25px;
     transition: all .50s ease;
   }
 
-  /* .navbar-expand-md .navbar-collapse {
+  .active .navbar-toggler .icofont-close{
+    display: block;
+  }
+
+  .active .navbar-toggler .icofont-navigation-menu{
+    display: none;
+  }
+
+   /* .navbar-expand-md .navbar-collapse {
     display: none !important;
     position: absolute;
     top: 100%;
@@ -2802,7 +2809,7 @@
     z-index: 999;
     background-color: #f8f9fa;
     padding: 15px;
-  }
+  }  */
 
   .navbar-expand-md .navbar-collapse ul.navbar-nav {
     display: flex;
