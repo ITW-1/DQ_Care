@@ -31,51 +31,75 @@
   </head>
 
   <body>
-    <!-- <div class="loader">
-      <div class="d-table">
-        <div class="d-table-cell">
-          <div class="spinner">
-            <div class="double-bounce1"></div>
-            <div class="double-bounce2"></div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
-    <div class="navbar-area sticky-top">
+    <nav class="navbar-area sticky-top">
       <div class="main-nav">
         <div class="container">
           <nav class="navbar navbar-expand-md navbar-light">
             <a class="navbar-brand" href="index.html">
-              <img class="icon-light" src="assets/img/icon/icon-header-light.png" alt="Logo" height="40"/>
-              <img class="icon-dark" src="assets/img/icon/icon-header-dark.png" alt="Logo" height="40"/>
+              <img class="icon-light" src="assets/img/icon/icon-header-light.png" alt="Logo" />
+              <img class="icon-dark" src="assets/img/icon/icon-header-dark.png" alt="Logo" />
             </a>
-            <div
-              class="collapse navbar-collapse mean-menu"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="about.html" class="nav-link active">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a href="service.html" class="nav-link">Explore DQCare</a>
-                </li>
-                <li class="nav-item">
-                  <a href="blog.html" class="nav-link">Blogs</a>
-                </li>
-                <li class="nav-item">
-                  <a href="contact.html" class="nav-link">Contact Us</a>
-                </li>
-              </ul>
+  
+            <!-- Navbar toggle button -->
+            <div class="navbar-toggler"data-bs-toggle="offcanvas" href="#offcanvasExample">
+              <i class="icofont-navigation-menu"></i>
+              <i class="icofont-close"></i>
+            </div>
+  
+            <!-- Desktop navbar -->
+            <div class="d-none d-lg-block ms-auto">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="./index.html" class="nav-link active">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./about.html" class="nav-link">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./service.html" class="nav-link">Explore DQCare</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./blog.html" class="nav-link">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <!-- Off canvas navbar -->
+            <div class="d-lg-none offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <a class="navbar-brand" href="index.html">
+                  <img class="icon-light" src="assets/img/icon/icon-header-light.png" alt="Logo" />
+                  <img class="icon-dark" src="assets/img/icon/icon-header-dark.png" alt="Logo" />
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <p class="ms-3">Adding Digital Quotient to Healthcare</p>
+              <div class="offcanvas-body">
+                <ul class="nav flex-column">
+                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./about.html">About Us</a></li>
+                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./service.html">Explore DQCare</a></li>
+                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./blog.html">Blogs</a></li>
+                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+  
+            <!-- Light dark mode switch -->
+            <div class="switch-box">
+              <label id="switch" class="switch"><input type="checkbox" onchange="toggleTheme()" id="slider" /><span
+                  class="slider round"></span></label>
             </div>
           </nav>
         </div>
       </div>
-    </div>
+    </nav>
 
     <!-- About Title -->
     <div class="page-title-area page-title-one">
