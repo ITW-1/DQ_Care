@@ -2881,6 +2881,10 @@
     display: block;
     width: 100%;
   }
+  .align-left{
+    text-align: left;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 1800px) {
   .service-item {
