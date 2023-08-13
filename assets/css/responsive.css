@@ -2885,6 +2885,9 @@
     text-align: left;
     width: 100%;
   }
+  .blog-button{
+    margin-left: 25%;
+  }
 }
 @media only screen and (min-width: 1800px) {
   .service-item {
