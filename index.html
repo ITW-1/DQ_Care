@@ -39,6 +39,9 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/responsive.css" />
   <link rel="stylesheet" href="assets/css/theme-dark.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+  
   <title>DQCare - Adding Digital Quotient to Healthcare | Home</title>
   <link rel="icon" type="image" href="assets/img/icon/favicon.ico" />
 </head>
@@ -74,13 +77,16 @@
                   <a href="./product.html" class="nav-link">Product</a>
                 </li>
                 <li class="nav-item">
-                  <a href="./blog.html" class="nav-link">Blogs</a>
+                  <a href="./blog.html" class="nav-link">Resources</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                   <a href="./pricing.html" class="nav-link">Pricing</a>
                 </li>
                 <li class="nav-item">
-                  <a href="./contact.html" class="nav-link">Contact</a>
+                  <a href="./contact.html" class="nav-link">Contact</a>-->
+                  <li class="nav-item">
+                    <a id="showPopup" class="nav-link">Download App</a>
+                  </li>
                 </li>
               </ul>
             </div>
@@ -104,7 +110,8 @@
                 <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./about.html">About</a></li>
                 <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./product.html">Product</a></li>
                 <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./blog.html">Blogs</a></li>
-                <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link fs-5 fw-semibold" id="showPopup">Download</a></li>
+                <!--<li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./contact.html">Contact</a></li>-->
               </ul>
             </div>
           </div>
@@ -119,23 +126,26 @@
     </div>
   </nav>
 
+  
+
   <div class="banner-area">
     <div class="d-table">
       <div class="d-table-cell">
-        <div class="container">
+        <div class="container" >
           <div class="banner-item">
-            <h1>NO PAPER, GO DIGITAL!</h1>
+            <h1>Transform Bulky Medical Records into Smart Health Files!</h1>
             <p>
-              DQCare's smart health file technology offers a secure and efficient way to manage all of your medical records. Our platform allows you to create a centralized digital file that can be shared with authorized users via a QR code. DQCare also offers a family health management feature that tracks the health of multiple family members and provides insights into family health trends. 
-            </p>
-            <div class="common-btn-two">
-              <a class="cmn-btn-right-two" href="about.html">Learn More</a>
+              Unlock early diagnosis, improved care, and prevention by converting your medical history into actionable data. Don't waste time – create your smart health file now and take control of your well-being.            </p>
+              <div class="common-btn-two">
+                <a id="showPopup1" class="cmn-btn-right-two" style="background-color: #1D1D4F; border-radius: 12px;">Download App</a>
             </div>
             <div class="banner-right">
-              <img src="assets/img/home-three/11.png" alt="Banner" />
+              <!--<img style="background-color: #EFEEF3; height: 300px; margin-top: 60px; border-radius: 64px;border-bottom-right-radius: 110px;" src="entry1.gif" alt="Banner" />
+              
               <img src="assets/img/home-three/12.png" alt="Banner" />
               <img src="assets/img/home-three/2.png" alt="Banner" />
-              <img src="assets/img/home-one/5.png" alt="Banner" />
+              <img src="assets/img/home-one/5.png" alt="Banner" />-->
+              <img style="margin-top: 20px; max-width: 800px;margin-right: 0px;" src="assets/img/entrygraphic.jpg" height="300px" width="" alt="Banner" />
             </div>
           </div>
         </div>
@@ -145,8 +155,51 @@
       <img src="assets/img/home-three/3.png" alt="Banner" />
     </div>
   </div>
+  <video autoplay loop="-1" class="v2" style="max-width: 80vw; margin-left: 9%; border-radius: 5%;"><source src="assets/img/entryvid.mp4"></video><br><br><br><br>
+  
 
-  <section class="hospital-area pb-70">
+<div class="overlay1" id="overlay1">
+  <div class="popup center">
+    <div class="vertical-sections">
+      <div class="banner-item">
+        <h2>Get Our Patient App</h2>
+        <p>Stay connected with your health. Download our patient app to access your medical records, schedule appointments, and more. </p>
+        <a href="coming-soon.html"><img style="height:48px; width: 120px;" src="assets/img/play-store.png" alt="Image" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="coming-soon.html"><img style="height:48px; width: 120px;" src="assets/img/apple-store.png" alt="Image" /></a><br><br>
+      </div>
+      <div class="banner-item">
+        <h2>Try Our Doctor's App</h2>
+        <p>Doctors, manage your practice with ease. Download our doctor's app to manage appointments, view patient records, and more.</p>
+        <a href="coming-soon.html"><img style="height:48px; width: 120px;" src="assets/img/play-store.png" alt="Image" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="coming-soon.html"><img style="height:48px; width: 120px;" src="assets/img/apple-store.png" alt="Image" /></a><br><br>
+      </div>
+    </div>
+    <button id="closePopup" class="blog-button" style="padding: 12px; ">Close</button>
+  </div>
+</div>
+
+<script>
+  const showPopupButton = document.getElementById('showPopup');
+  const showPopupButton1 = document.getElementById('showPopup1');
+  const overlay = document.getElementById('overlay1');
+  const closePopupButton = document.getElementById('closePopup');
+
+  showPopupButton.addEventListener('click', () => {
+    overlay.style.display = 'flex';
+  });
+  showPopupButton1.addEventListener('click', () => {
+    overlay.style.display = 'flex';
+  });
+  closePopupButton.addEventListener('click', () => {
+    overlay.style.display = 'none';
+  });
+</script>
+
+  <!--<section class="hospital-area pb-70">
+    <div><video src="entry.mp4" autoplay loop="-1" style="max-width: 100%; height: 500px; margin-left:30%; margin-top: 150px; margin-bottom: 100px;"></video></div>
+  </section>-->
+
+ <!-- <section class="hospital-area pb-70">
     <div class="container-fluid p-0">
       <div class="hospital-shape">
         <img src="assets/img/home-three/6.png" alt="Shape" />
@@ -198,7 +251,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <section class="speciality-area pb-100">
     <div class="container-fluid p-0">
@@ -217,42 +270,38 @@
             <div class="speciality-item">
               <div class="row m-0">
                 <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                  <div class="speciality-inner">
+                  <div class="speciality-inner" style="background-color: #FABF4D;">
                     <i class="icofont-check-circled"></i>
-                    <h3>Digital Records</h3>
+                    <h3> Your Security, Our Priority</h3>
                     <p>
-                      Ensure efficient storage and retrieval of patient data,
-                      no paper records!
-                    </p>
+                      Our advanced security measures ensure that your health records are encrypted and protected
+                    </p><br><br>
                   </div>
                 </div>
                 <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                  <div class="speciality-inner">
+                  <div class="speciality-inner" style="background-color: #91D9C3;">
                     <i class="icofont-check-circled"></i>
-                    <h3>Reminders</h3>
+                    <h3>Never miss a dose again!</h3>
                     <p>
-                      Personalized medicine reminders promote medication
-                      adherence for patients
-                    </p>
+                      Stay on track with  our  timely reminders ensure you never forget to take your medication b our AI model
+                    </p><br><br>
                   </div>
                 </div>
                 <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                  <div class="speciality-inner">
+                  <div class="speciality-inner" style="background-color: #47CBFA;">
                     <i class="icofont-check-circled"></i>
-                    <h3>Anyone, Anywhere</h3>
+                    <h3>Modern Healthcare</h3>
                     <p>
-                      Remote doctor consultations reduce restrictions while
-                      expand healthcare services.
-                    </p>
+                      Our e-prescription model revolutionizes prescription management by digitizing paper scripts, ensuring a smoother and more accessible process.
+                    </p><br>
                   </div>
                 </div>
                 <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                  <div class="speciality-inner">
+                  <div class="speciality-inner" style="background-color: #F8679B;">
                     <i class="icofont-check-circled"></i>
-                    <h3>Accuracy & Reliability</h3>
+                    <h3>Your Family's Health Journey</h3>
                     <p>
-                      Our platform provides accurate medical and educational
-                      resources, and interactive tools
+                      From medical history to vaccination records, DQCARE  provides a seamless platform to monitor the health of your loved ones.
                     </p>
                   </div>
                 </div>
@@ -261,9 +310,7 @@
           </div>
         </div>
         <div class="col-lg-5 pr-0">
-          <div class="speciality-item speciality-right speciality-right-two">
-            <img src="assets/img/solution2.png" alt="Speciality" />
-          </div>
+            <img style="height: 600px; width: 800px; margin-top: 150px;" src="assets/img/digitalplatformrightside.png" alt="Speciality" />
         </div>
       </div>
     </div>
@@ -275,8 +322,103 @@
         <span>What in it for you?</span>
         <h2>App Features</h2>
       </div>
-      <div class="row"><img src="./assets/img/workflow.png" alt=""></div>
-      <div class="row">
+      <div class="carousel2" id="carousel">
+        <div class="slide2">
+          <div class="slide2-content">
+            <div class="feature-description">
+              <h2>Book appointment 
+              </h2>
+              <p>
+
+                No more waiting on hold – just a few taps, and your appointment is confirmed.</p>
+            </div>
+            <div class="feature-image">
+              <img src="assets/img/phone.png" style="border-radius: 4%;" alt="App Feature 1">
+            </div>
+          </div>
+        </div>
+        <div class="slide2">
+          <div class="slide2-content">
+            <div class="feature-description">
+              <h2>DQCARE’S  QR CODE
+              </h2>
+              <p> Simply Scan the qr code and get  access to  your complete medical history  at your fingertips 
+                No more managing  paper health records.
+                </p>
+            </div>
+            <div class="feature-image">
+              <img  src="assets/img/phone.png" style="border-radius: 4%;" alt="App Feature 2">
+            </div>
+          </div>
+        </div>
+        <!-- Add more slides here -->
+        <div class="slide2">
+          <div class="slide2-content">
+            <div class="feature-description">
+              <h2>Comprehensive Family Health Management
+              </h2>
+              <p>Managing your family's health has never been easier
+                Our app allows you to maintain health records for all family members in one place.
+                </p>
+            </div>
+            <div class="feature-image">
+              <img  src="assets/img/phone.png" style="border-radius: 4%;" alt="App Feature 2">
+            </div>
+          </div>
+        </div>
+
+        <div class="slide2">
+          <div class="slide2-content">
+            <div class="feature-description">
+              <h2>Get  personalized health plans and reminders </h2>
+              <p>Stay on track with timely reminders  Whether it's a fitness goal or a medication schedule
+              </p>
+            </div>
+            <div class="feature-image">
+              <img  src="assets/img/phone.png" style="border-radius: 4%;" alt="App Feature 2">
+            </div>
+          </div>
+        </div>
+
+        <div class="slide2">
+          <div class="slide2-content">
+            <div class="feature-description">
+              <h2>Digital Prescription Transformation - doctor APP
+              </h2>
+              <p>Our digital prescription service replaces traditional paper prescriptions, making the process quicker, safer, and more efficient. , eliminating the risk of misplaced or lost prescriptions.
+              </p>
+            </div>
+            <div class="feature-image">
+              <img  src="assets/img/phone.png" style="border-radius: 4%;" alt="App Feature 2">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        const carousel = document.getElementById('carousel');
+        const slides = carousel.querySelectorAll('.slide2');
+      
+        let currentSlide = 0;
+      
+        function showSlide(index) {
+          slides.forEach((slide, idx) => {
+            slide.style.transform = `translateX(${(idx - index) * 100}%)`;
+          });
+          currentSlide = index;
+        }
+      
+        // Show the first slide initially
+        showSlide(currentSlide);
+      
+        // Example: Automatically move to the next slide every few seconds
+        setInterval(() => {
+          currentSlide = (currentSlide + 1) % slides.length;
+          showSlide(currentSlide);
+        }, 3000); // Change slide every 5 seconds
+        </script>
+      <!--<div class="row"><img src="./assets/img/workflow.png" alt=""></div>-->
+      <!--<div class="row">
         <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
           <div class="service-item">
             <div class="service-front">
@@ -444,10 +586,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </section>
-
-  <section class="welcome-area pb-100">
+  
+  <!--<section class="welcome-area pb-100">
     <div class="container-fluid p-0">
       <div class="row m-0">
         <div class="col-lg-6 pl-0">
@@ -500,7 +642,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- <section class="doctors-area pt-100">
     <div class="container">
@@ -720,13 +862,77 @@
         </div>
       </div>
     </div>
-  </section>
+  </section><br><br><br>
+  
+ <!-- <section class="blog" data-scroll-index="4">
+    <div class="container">
+       header of section 
+      <div class="blog-head text-center">
+        <h2>DQ IN THE NEWS</h2>
+        <h6>latest news</h6>
+      </div>
+
+      blog items 
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="item">
+            <div class="img">
+              <img src="https://i.ibb.co/CKNmhMX/blog1.jpg" alt="">
+            </div>
+            <div class="info">
+              <div class="date">
+                <span>05 <br> Nov</span>
+              </div>
+              <a href=""><h5>Lorem Ipsum is simply dummy</h5></a>
+              <p>Lorem ipsum dolor sit amet conse ctetur, adipi sicing elit. Nisi sapiente hic fugiat delectus dicta delectus dicta.</p>
+              <a href="#0" class="user"><i class="fas fa-user"></i>Admin</a>
+              <a href="#0" class="more"><i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="item">
+              <div class="img">
+                <img src="https://i.ibb.co/m5yGbdR/blog2.jpg" alt="">
+              </div>
+              <div class="info">
+                <div class="date">
+                  <span>19 <br> Dec</span>
+                </div>
+                <a href=""><h5>Lorem Ipsum is simply dummy</h5></a>
+                <p>Lorem ipsum dolor sit amet conse ctetur, adipi sicing elit. Nisi sapiente hic fugiat delectus dicta delectus dicta.</p>
+                <a href="#0" class="user"><i class="fas fa-user"></i>Admin</a>
+                <a href="#0" class="more"><i class="fas fa-long-arrow-alt-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="item">
+              <div class="img">
+                <img src="https://i.ibb.co/YXV3zmh/blog3.jpg" alt="">
+              </div>
+              <div class="info">
+                <div class="date">
+                  <span>25 <br> Dec</span>
+                </div>
+                <a href=""><h5>Lorem Ipsum is simply dummy</h5></a>
+                <p>Lorem ipsum dolor sit amet conse ctetur, adipi sicing elit. Nisi sapiente hic fugiat delectus dicta delectus dicta.</p>
+                <a href="#0" class="user"><i class="fas fa-user"></i>Admin</a>
+                <a href="#0" class="more"><i class="fas fa-long-arrow-alt-right"></i></a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>-->
 
   <section class="blog-area pt-100 pb-70">
     <div class="container">
       <div class="section-title-two">
-        <span>Blogs</span>
-        <h2>Our latest blogs</h2>
+        <!--<span>Featured</span>-->
+        <h2>Featured Resources</h2>
       </div>
       <div class="row">
         <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
@@ -737,7 +943,7 @@
               </a>
             </div>
             <div class="blog-bottom">
-              <h3>
+              <span style="background-color: #47CBFA; border-radius: 12px; color: black;">&nbsp;&nbsp;&nbsp;Article&nbsp;&nbsp;&nbsp;</span>              <h3>
                 <a href="blog-details2.html">Electronic Health Record</a>
               </h3>
               <p>
@@ -766,7 +972,8 @@
                 <img src="assets/img/home-one/Heat.png" alt="Blog" />
               </a>
             </div>
-            <div class="blog-bottom">
+            <div class="blog-bottom">              
+              <span style="background-color: #F8679B; border-radius: 12px; color: black;">&nbsp;&nbsp;&nbsp;Report&nbsp;&nbsp;&nbsp;</span>
               <h3>
                 <a href="blog-details3.html">Heat Stroke</a>
               </h3>
@@ -797,6 +1004,7 @@
               </a>
             </div>
             <div class="blog-bottom">
+              <span style="background-color: #91D9C3; border-radius: 12px; color: black;">&nbsp;&nbsp;&nbsp;Case Study&nbsp;&nbsp;&nbsp;</span>
               <h3>
                 <a href="blog-details4.html">Are we drinking enough water?</a>
               </h3>
@@ -827,14 +1035,15 @@
   </section>
 
   <section class="blog-area pt-100">
+    <div class="container">
     <form action="https://formsubmit.co/info@dqcare.in" method="POST">
-      <div class="container-area">
-        <h2 class="form-title">Subscribe to our Newsletter</h2>
+      <div class="section-title-two">
+        <h2 class="form-title" style="color: #fff; text-align: center; border-radius: 18px;">Sign-up Now!</h2>
       </div>
 
       <div class="container" style="background-color:white">
-        <input type="text" placeholder="Name" name="name" required>
-        <input type="text" placeholder="Email address" name="mail" required>
+        <input type="text" placeholder="Name" name="name" required><br>
+        <input type="text" placeholder="Email address" name="mail" required><br>
         <label>
           <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
         </label>
@@ -844,6 +1053,7 @@
         <input type="submit" value="Subscribe">
       </div>
     </form>
+  </div>
   </section>
 
   <footer class="pb-70">
@@ -956,6 +1166,8 @@
   <script src="assets/js/odometer.min.js"></script>
   <script src="assets/js/jquery.appear.min.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="assets/js/script.js"></script>
+<script src="assets/js/carousel.js"></script>
 </body>
 
 </html>
