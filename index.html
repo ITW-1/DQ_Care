@@ -345,105 +345,121 @@
 
   <section class="services-area pb-70">
     <div class="container">
-      <div class="section-title-two">
-        <span>What in it for you?</span>
-        <h2>App Features</h2>
-      </div>
-      <div class="carousel2" id="carousel">
-        <div class="slide2">
-          <div class="slide2-content">
-            <div class="feature-description">
-              <h2>Book appointment 
-              </h2>
-              <p>
+<div class="section-title-two">
+    <span>What's in it for you?</span>
+    <h2>App Features</h2>
+</div>
 
-                No more waiting on hold – just a few taps, and your appointment is confirmed.</p>
-            </div>
-            <div class="feature-image">
-              <img src="assets/img/phone.png" style="border-radius: 4%;" alt="App Feature 1">
-            </div>
+<!-- Carousel container -->
+<div class="carousel2-container">
+  <div class="carousel2" id="carousel">
+      <div class="slide2">
+          <div class="feature-description">
+              <h2 style="font-weight: bold;">Book appointment</h2><br>
+              <p>No more waiting on hold – just a few taps, and your appointment is confirmed.</p>
           </div>
-        </div>
-        <div class="slide2">
-          <div class="slide2-content">
-            <div class="feature-description">
-              <h2>DQCARE’S  QR CODE
-              </h2>
+          <div class="feature-image">
+              <img src="assets/img/phone.png" style="border-radius: 4%; height: 300px; display: block; margin: 0 auto;" alt="App Feature 1">
+          </div>
+      </div>
+      <!-- Add more slides here -->
+      <div class="slide2">
+          <div class="feature-description">
+              <h2 style="font-weight: bold;">DQCARE’S  QR CODE</h2><br>
               <p> Simply Scan the qr code and get  access to  your complete medical history  at your fingertips 
-                No more managing  paper health records.
+                No more managing  paper health records
                 </p>
-            </div>
-            <div class="feature-image">
-              <img  src="assets/img/phone.png" style="border-radius: 4%;" alt="App Feature 2">
-            </div>
           </div>
-        </div>
-        <!-- Add more slides here -->
-        <div class="slide2">
-          <div class="slide2-content">
-            <div class="feature-description">
-              <h2>Comprehensive Family Health Management
-              </h2>
-              <p>Managing your family's health has never been easier
-                Our app allows you to maintain health records for all family members in one place.
-                </p>
-            </div>
-            <div class="feature-image">
-              <img  src="assets/img/phone.png" style="border-radius: 4%;" alt="App Feature 2">
-            </div>
+          <div class="feature-image">
+              <img src="assets/img/phone.png" style="border-radius: 4%; height: 300px; display: block; margin: 0 auto;" alt="App Feature 1">
           </div>
-        </div>
-
-        <div class="slide2">
-          <div class="slide2-content">
-            <div class="feature-description">
-              <h2>Get  personalized health plans and reminders </h2>
-              <p>Stay on track with timely reminders  Whether it's a fitness goal or a medication schedule
-              </p>
-            </div>
-            <div class="feature-image">
-              <img  src="assets/img/phone.png" style="border-radius: 4%;" alt="App Feature 2">
-            </div>
-          </div>
-        </div>
-
-        <div class="slide2">
-          <div class="slide2-content">
-            <div class="feature-description">
-              <h2>Digital Prescription Transformation - doctor APP
-              </h2>
-              <p>Our digital prescription service replaces traditional paper prescriptions, making the process quicker, safer, and more efficient. , eliminating the risk of misplaced or lost prescriptions.
-              </p>
-            </div>
-            <div class="feature-image">
-              <img  src="assets/img/phone.png" style="border-radius: 4%;" alt="App Feature 2">
-            </div>
-          </div>
-        </div>
       </div>
-      
-      <script>
-        const carousel = document.getElementById('carousel');
-        const slides = carousel.querySelectorAll('.slide2');
-      
-        let currentSlide = 0;
-      
-        function showSlide(index) {
-          slides.forEach((slide, idx) => {
-            slide.style.transform = `translateX(${(idx - index) * 100}%)`;
-          });
-          currentSlide = index;
-        }
-      
-        // Show the first slide initially
-        showSlide(currentSlide);
-      
-        // Example: Automatically move to the next slide every few seconds
-        setInterval(() => {
-          currentSlide = (currentSlide + 1) % slides.length;
-          showSlide(currentSlide);
-        }, 3000); // Change slide every 5 seconds
-        </script>
+
+      <div class="slide2">
+        <div class="feature-description">
+            <h2 style="font-weight: bold;">Comprehensive Family Health Management
+            </h2><br>
+            <p>Managing your family's health has never been easier
+              Our app allows you to maintain health records for all family members in one place.
+              </p>
+        </div>
+        <div class="feature-image">
+            <img src="assets/img/phone.png" style="border-radius: 4%; height: 300px; display: block; margin: 0 auto;" alt="App Feature 1">
+        </div>
+    </div>
+
+
+    <div class="slide2">
+      <div class="feature-description">
+          <h2 style="font-weight: bold;">Get personalized health plans and reminders 
+          </h2><br>
+          <p>Stay on track with timely reminders  Whether it's a fitness goal or a medication schedule
+          </p>
+      </div>
+      <div class="feature-image">
+          <img src="assets/img/phone.png" style="border-radius: 4%; height: 300px; display: block; margin: 0 auto;" alt="App Feature 1">
+      </div>
+  </div>
+
+  <div class="slide2">
+    <div class="feature-description">
+        <h2 style="font-weight: bold;">Digital Prescription Transformation - doctor APP</h2><br>
+        <p>Our digital prescription service replaces traditional paper prescriptions, making the process quicker, safer, and more efficient. , eliminating the risk of misplaced or lost prescriptions.
+        </p>
+    </div>
+    <div class="feature-image">
+        <img src="assets/img/phone.png" style="border-radius: 4%; height: 300px; display: block; margin: 0 auto;" alt="App Feature 1">
+    </div>
+</div>
+
+  </div>
+</div>
+
+<!-- Slider buttons -->
+<div class="slider-buttons" id="sliderButtons">
+  <!-- Slider buttons will be added dynamically using JavaScript -->
+</div>
+
+<script>
+  const carousel = document.getElementById('carousel');
+  const slides = carousel.querySelectorAll('.slide2');
+  const sliderButtonsContainer = document.getElementById('sliderButtons');
+  let currentSlide = 0;
+
+  // Create slider buttons dynamically
+  slides.forEach((slide, idx) => {
+      const button = document.createElement('div');
+      button.className = 'slider-button';
+      sliderButtonsContainer.appendChild(button);
+
+      // Add click event listeners to the slider buttons
+      button.addEventListener('click', () => showSlide(idx));
+  });
+
+  function showSlide(index) {
+      slides.forEach((slide, idx) => {
+        slide.style.transform = `translateX(-${index * 100}%)`;
+      });
+
+      // Update the active state of the slider buttons
+      const buttons = sliderButtonsContainer.querySelectorAll('.slider-button');
+      buttons.forEach((button, idx) => {
+          button.classList.toggle('active', idx === index);
+      });
+
+      currentSlide = index;
+  }
+
+  // Show the first slide initially
+  showSlide(currentSlide);
+
+  // Example: Automatically move to the next slide every few seconds
+  setInterval(() => {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+  }, 5000); // Change slide every 5 seconds
+</script>
+
       <!--<div class="row"><img src="./assets/img/workflow.png" alt=""></div>-->
       <!--<div class="row">
         <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">

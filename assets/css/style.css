@@ -5273,14 +5273,14 @@ h2 {
   flex-direction: column;
 }
 
-.carousel2 {
+/*.carousel2 {
   display: flex;
-  overflow: hidden;
-  width: 80%;
+  width: 300px;
   margin: 0 auto;
+  height: 500px;
 }
 
-/* Carousel slide */
+/* Carousel slide 
 .slide2 {
   display: flex;
   align-items: center;
@@ -5291,14 +5291,14 @@ h2 {
   border-radius: 5%;
 }
 
-/* Slide content */
+/* Slide content 
 .slide2-content {
   display: flex;
   width: 500px;
   height: 300px;
   padding: 20px;
   box-sizing: border-box;
-}
+}*/
 
 .feature-description {
   flex: 1;
@@ -5308,4 +5308,45 @@ h2 {
   width: 50%;
   padding: 20px;
   box-sizing: border-box;
+}
+.carousel2-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px; /* Set a maximum width for the carousel */
+  margin: 0 auto;
+}
+
+.carousel2 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide2 {
+  flex: 0 0 100%;
+  padding: 20px;
+  background-color: #1d1d4f;
+  color: #fff;
+  border-radius: 5%;
+}
+
+/* Add styles for slider buttons */
+.slider-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.slider-button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #888;
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+/* Style the active slider button */
+.slider-button.active {
+  background-color: #333;
 }
