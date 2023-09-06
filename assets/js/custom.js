@@ -134,13 +134,7 @@ jQuery(
           ));
       }, second);
     }
-    jQuery(window).on("load", function () {
-      jQuery(".loader").fadeOut(500);
-    });
-    new WOW().init();
-    $("body").append(
-      '<div id="toTop" class="back-to-top-btn"><i class="icofont-hand-drawn-up"></i></div>'
-    );
+
     $(window).scroll(function () {
       if ($(this).scrollTop() != 0) {
         $("#toTop").fadeIn();
