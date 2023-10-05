@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="zxx">
   <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G9FFD236NH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-G9FFD236NH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-G9FFD236NH');
-</script>
+      gtag("config", "G-G9FFD236NH");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -36,16 +41,28 @@
         <div class="container">
           <nav class="navbar navbar-expand-md navbar-light">
             <a class="navbar-brand" href="index.html">
-              <img class="icon-light" src="assets/img/icon/icon-header-light.png" alt="Logo" />
-              <img class="icon-dark" src="assets/img/icon/icon-header-dark.png" alt="Logo" />
+              <img
+                class="icon-light"
+                src="assets/img/icon/icon-header-light.png"
+                alt="Logo"
+              />
+              <img
+                class="icon-dark"
+                src="assets/img/icon/icon-header-dark.png"
+                alt="Logo"
+              />
             </a>
-  
+
             <!-- Navbar toggle button -->
-            <div class="navbar-toggler"data-bs-toggle="offcanvas" href="#offcanvasExample">
+            <div
+              class="navbar-toggler"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasExample"
+            >
               <i class="icofont-navigation-menu"></i>
               <i class="icofont-close"></i>
             </div>
-  
+
             <!-- Desktop navbar -->
             <div class="d-none d-lg-block ms-auto">
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,44 +76,86 @@
                   <li class="nav-item">
                     <a href="./product.html" class="nav-link">Product</a>
                   </li>
-                   <li class="nav-item">
-                  <a href="./blog.html" class="nav-link">Blogs</a>
-                </li>
- <li class="nav-item">
-                  <a href="./pricing.html" class="nav-link">Pricing</a>
-                </li>
+                  <li class="nav-item">
+                    <a href="./blog.html" class="nav-link">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./pricing.html" class="nav-link">Pricing</a>
+                  </li>
                   <li class="nav-item">
                     <a href="./contact.html" class="nav-link">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
-  
+
             <!-- Off canvas navbar -->
-            <div class="d-lg-none offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div
+              class="d-lg-none offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel"
+            >
               <div class="offcanvas-header">
                 <a class="navbar-brand" href="index.html">
-                  <img class="icon-light" src="assets/img/icon/icon-header-light.png" alt="Logo" />
-                  <img class="icon-dark" src="assets/img/icon/icon-header-dark.png" alt="Logo" />
+                  <img
+                    class="icon-light"
+                    src="assets/img/icon/icon-header-light.png"
+                    alt="Logo"
+                  />
+                  <img
+                    class="icon-dark"
+                    src="assets/img/icon/icon-header-dark.png"
+                    alt="Logo"
+                  />
                 </a>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
               </div>
               <p class="ms-3">Adding Digital Quotient to Healthcare</p>
               <div class="offcanvas-body">
                 <ul class="nav flex-column">
-                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./index.html">Home</a></li>
-                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./about.html">About</a></li>
-                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./product.html">Product</a></li>
-                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./blog.html">Blogs</a></li>
-                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./contact.html">Contact</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5 fw-semibold" href="./index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5 fw-semibold" href="./about.html"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5 fw-semibold" href="./product.html"
+                      >Product</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5 fw-semibold" href="./blog.html"
+                      >Blogs</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-5 fw-semibold" href="./contact.html"
+                      >Contact</a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
-  
+
             <!-- Light dark mode switch -->
             <div class="switch-box">
-              <label id="switch" class="switch"><input type="checkbox" onchange="toggleTheme()" id="slider" /><span
-                  class="slider round"></span></label>
+              <label id="switch" class="switch"
+                ><input
+                  type="checkbox"
+                  onchange="toggleTheme()"
+                  id="slider" /><span class="slider round"></span
+              ></label>
             </div>
           </nav>
         </div>
@@ -129,7 +188,10 @@
             <div class="location-item">
               <i class="icofont-location-pin"></i>
               <h3>Location</h3>
-              <p>Shop no B1, Shri siddhi Vinayak residency, Chharwada, Vapi -396191, Gujarat</p>
+              <p>
+                Shop no B1, Shri siddhi Vinayak residency, Chharwada, Vapi
+                -396191, Gujarat
+              </p>
             </div>
           </div>
           <div class="col-sm-6 col-lg-4">
@@ -138,10 +200,7 @@
               <h3>Email</h3>
               <ul>
                 <li>
-                  <a
-                    href="mailto:info@dqcare.com"
-                    >info@dqcare.com</a
-                  >
+                  <a href="mailto:info@dqcare.com">info@dqcare.com</a>
                 </li>
               </ul>
             </div>
@@ -159,7 +218,6 @@
       </div>
     </div>
 
-
     <iframe
       id="map"
       data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233.7455708561378!2d72.9290838211889!3d20.385811573090873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0cfb15a0f80e3%3A0xe5402590509bf90d!2sShree%20Siddhi%20Vinayak%20Residency!5e0!3m2!1sen!2sin!4v1669442431276!5m2!1sen!2sin"
@@ -175,7 +233,10 @@
             <div class="footer-item">
               <div class="footer-contact">
                 <a href="index.html"
-                  ><img src="assets/img/icon/icon-footer-dark.png" alt="Logo" height="120"
+                  ><img
+                    src="assets/img/icon/icon-footer-dark.png"
+                    alt="Logo"
+                    height="120"
                 /></a>
                 <br />
                 <h4>Adding Digital Quotient to Healthcare</h4>
@@ -187,8 +248,7 @@
                     ></a>
                   </li>
                   <li>
-                    <a
-                      href="https://www.instagram.com/healthdetails_hd/"
+                    <a href="https://www.instagram.com/healthdetails_hd/"
                       ><i class="icofont-instagram"></i
                     ></a>
                   </li>
@@ -249,10 +309,12 @@
             <div class="footer-item">
               <div class="footer-quick">
                 <h3>Get Our App Now</h3>
-                <a href="coming-soon.html"
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.healthdetails.patient"
                   ><img src="assets/img/play-store.png" alt="Image"
                 /></a>
-                <a href="coming-soon.html"
+                <a
+                  href="https://apps.apple.com/in/app/healthdetails-patient/id6450669239"
                   ><img src="assets/img/apple-store.png" alt="Image"
                 /></a>
               </div>
@@ -274,8 +336,17 @@
             <script>
               document.write(new Date().getFullYear());
             </script>
-            DQcare. Powered By 
-          <a href="https://wictronix.com/" target="_blank"><img style="width: 10rem;background-color: antiquewhite;padding: 6px;border-radius: 10px;" src="./assets/img/black&blue.png"/></a>
+            DQcare. Powered By
+            <a href="https://wictronix.com/" target="_blank"
+              ><img
+                style="
+                  width: 10rem;
+                  background-color: antiquewhite;
+                  padding: 6px;
+                  border-radius: 10px;
+                "
+                src="./assets/img/black&blue.png"
+            /></a>
           </p>
         </div>
       </div>
@@ -296,22 +367,22 @@
     <script src="assets/js/custom.js"></script>
 
     <script>
-        function lazyLoadMap() {
-          var mapIframe = document.getElementById('map');
-          var observer = new IntersectionObserver(function (entries, observer) {
-            entries.forEach(function (entry) {
-              if (entry.isIntersecting) {
-                observer.unobserve(entry.target);
-                entry.target.src = entry.target.dataset.src;
-              }
-            });
+      function lazyLoadMap() {
+        var mapIframe = document.getElementById("map");
+        var observer = new IntersectionObserver(function (entries, observer) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              observer.unobserve(entry.target);
+              entry.target.src = entry.target.dataset.src;
+            }
           });
+        });
 
-          observer.observe(mapIframe);
-        }
+        observer.observe(mapIframe);
+      }
 
-        // Call the lazy loading function when the page has finished loading
-        window.addEventListener('load', lazyLoadMap);
+      // Call the lazy loading function when the page has finished loading
+      window.addEventListener("load", lazyLoadMap);
     </script>
   </body>
 </html>
