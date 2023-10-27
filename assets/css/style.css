@@ -1478,6 +1478,27 @@ input[type="submit"]:hover {
   opacity: 0.8;
 }
 
+.more-blog-button {
+  border-radius: 12px;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 15px 0;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 50%;
+}
+
+.more-blog-button {
+  background-color: #1d1d4f;
+  color: #fff;
+  border: none;
+}
+
+.more-blog-button:hover {
+  opacity: 0.8;
+}
+
 footer {
   background-image: url(../img/home-one/14.png);
   background-size: cover;
