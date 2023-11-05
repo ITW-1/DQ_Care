@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-G9FFD236NH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-G9FFD236NH");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/meanmenu.css" />
+    <link rel="stylesheet" href="assets/css/icofont.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.min.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/odometer.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/theme-dark.css" />
+    <title>Telemedicine</title>
+    <link rel="icon" type="image/png" href="assets/img/icon/icon.png" />
+  </head>
+
+  <body>
+    <!-- <div class="loader">
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <nav class="navbar-area sticky-top">
+      <div class="main-nav">
+        <div class="container">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="index.html">
+              <img class="icon-light" src="assets/img/icon/icon-header-light.png" alt="Logo" />
+              <img class="icon-dark" src="assets/img/icon/icon-header-dark.png" alt="Logo" />
+            </a>
+  
+            <!-- Navbar toggle button -->
+            <div class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasExample">
+              <i class="icofont-navigation-menu"></i>
+              <i class="icofont-close"></i>
+            </div>
+  
+            <!-- Desktop navbar -->
+            <div class="d-none d-lg-block ms-auto">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="./index.html" class="nav-link active">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./about.html" class="nav-link">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./product.html" class="nav-link">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./blog.html" class="nav-link">Resources</a>
+                  </li>
+                  <!--<li class="nav-item">
+                    <a href="./pricing.html" class="nav-link">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./contact.html" class="nav-link">Contact</a>-->
+                    <li class="nav-item">
+                      <a id="showPopup" class="nav-link" style="cursor: pointer;">Download App</a>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <!-- Off canvas navbar -->
+            <div class="d-lg-none offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <a class="navbar-brand" href="index.html">
+                  <img class="icon-light" src="assets/img/icon/icon-header-light.png" alt="Logo" />
+                  <img class="icon-dark" src="assets/img/icon/icon-header-dark.png" alt="Logo" />
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <br>
+              </div>
+              <p class="ms-3">Adding Digital Quotient to Healthcare</p>
+              <div class="offcanvas-body">
+                <ul class="nav flex-column">
+                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./about.html">About</a></li>
+                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./product.html">Product</a></li>
+                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./blog.html">Blogs</a></li>
+                  <li class="nav-item"><a class="nav-link fs-5 fw-semibold" id="showPopup">Download</a></li>
+                  <!--<li class="nav-item"><a class="nav-link fs-5 fw-semibold" href="./contact.html">Contact</a></li>-->
+                </ul>
+              </div>
+            </div>
+  
+            <!-- Light dark mode switch -->
+            <div class="switch-box">
+              <label id="switch" class="switch"><input type="checkbox" onchange="toggleTheme()" id="slider" /><span
+                  class="slider round"></span></label>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </nav>
+
+    <div class="page-title-area page-title-three">
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="page-title-item">
+            <h2>Telemedicine</h2>
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <i class="icofont-simple-right"></i>
+              </li>
+              <li>
+                <a href="blog.html">Blogs</a>
+              </li>
+              <li>
+                <i class="icofont-simple-right"></i>
+              </li>
+              <li>
+                The Future of Clinic Visits from Your Living Room
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-details-area pt-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="blog-details-item">
+              <div class="blog-details-img">
+                <img
+                  src="assets/img/home-one/telemed.jpg"
+                  height="480px"
+                  alt="Blog"
+                />
+                <h2>
+                  Telemedicine: The Future of Clinic Visits from Your Living Room
+                </h2>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="icofont-businessman"></i>
+                      TEAM DQCARE
+                    </a>
+                  </li>
+                  <li>
+                    <i class="icofont-calendar"></i>
+                    NOV 5, 2023
+                  </li>
+                </ul>
+                <p>
+                  The way we get to healthcare, among other necessities, is changing drastically as the world gets more interconnected. Technology is changing the face of the clinic visit, as evidenced by the recent rise of telemedicine, or remote patient care. Let's look at the cutting edge of digital medicine and see how it's changing the way people get the care they need.
+                </p>
+                <h4>Introducing Telemedicine's Brief Past
+                </h4>
+
+                <p>
+                  The concept of remote medical care is not new. Radios were used to provide medical guidance to seafarers as early as the 20th century. In the 1960s, NASA began employing telemedicine to provide medical attention to astronauts stationed in orbit. The COVID-19 pandemic has brought to light the urgent need for telemedicine, but it is the current technology advances that have catapulted telemedicine into the spotlight.
+                </p>
+                <h4>Telemedicine's Benefits</h4>
+
+                <p>
+                  During the recent COVID-19 outbreak, telemedicine helped keep both patients and medical staff safe from harm.
+
+                  Easy access to specialists without having to travel far means that people in even the most distant areas can get the care they need.
+                  
+                  economical; expenses for supporting infrastructure are kept to a minimum. Patients can save money on things like lost wages and transportation expenses as a result.
+                  
+                  More comprehensive care is now within reach because to the widespread adoption of electronic health records and other digital tools in the healthcare industry.
+                   </p>
+                <h4>Obstacles and Thoughts
+                </h4>
+                <p>
+                  Although telemedicine has many potential benefits, it also has certain drawbacks.
+
+Challenges in Technology: Both the provider and the patient must have access to a reliable internet connection and the appropriate hardware.
+
+The cross-border nature of telehealth raises problems concerning the applicability of different medical licenses in different jurisdictions.
+
+With the rise of digital methods of communication, the importance of data security cannot be overstated.
+
+                </p>
+                <h4>Telemedicine's Bright Future
+                </h4>
+                <p>Even after the pandemic has passed, experts predict that telemedicine use will increase. The next steps in telemedicine may involve integrating AI for preliminary diagnosis, wearable devices for continuous health monitoring, and VR for immersive therapy sessions.
+                </p>
+                <h4>Conclusion
+                </h4>
+                <p>Instead than being a band-aid, telemedicine is a glimpse into the future of healthcare. Although there are obstacles to overcome, the potential gains for patients around the world are substantial. Even as the barriers between healthcare and technology continue to blur, one thing remains constant: a commitment to providing excellent care to patients from wherever they may be.
+                </p>
+               </div>
+              <div class="blog-details-previous">
+                <div class="prev-next">
+                  <ul>
+                    <li>
+                      <a href="blog-details2.html">Previous</a>
+                    </li>
+                    <li>
+                      <a href="blog-details4.html">Next</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="blog-details-item">
+              <div class="blog-details-recent">
+                <h3>Recent Blogs</h3>
+                <ul>
+                  <li>
+                    <img src="assets/img/home-one/dRINK.png" alt="Recent" />
+                    <a href="blog-details4.html"
+                      >Are we drinking enough water?</a
+                    >
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <i class="icofont-businessman"></i>
+                          Pratyush Jsud
+                        </a>
+                      </li>
+                      <li>
+                        <i class="icofont-calendar"></i>
+                        APR 21, 2023
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <img src="assets/img/home-one/Health.png" alt="Recent" />
+                    <a href="blog-details.html">Health Tips</a>
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <i class="icofont-businessman"></i>
+                          Pratyush Jsud
+                        </a>
+                      </li>
+                      <li>
+                        <i class="icofont-calendar"></i>
+                        Jan 03, 2020
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <img
+                      src="assets/img/home-one/Electronic.webp"
+                      alt="Recent"
+                    />
+                    <a href="blog-details2.html">Electronic Health Record</a>
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <i class="icofont-businessman"></i>
+                          Pratyush Jsud
+                        </a>
+                      </li>
+                      <li>
+                        <i class="icofont-calendar"></i>
+                        DEC 08, 2022
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="blog-details-category">
+                <h3>Category</h3>
+                <ul>
+                  <li>
+                    <a href="#">Health Care</a>
+                  </li>
+                  <li>
+                    <a href="#">Medical science</a>
+                  </li>
+                  <li>
+                    <a href="#">Daily lifestyle</a>
+                  </li>
+                  <li>
+                    <a href="#">Medicine</a>
+                  </li>
+                  <li>
+                    <a href="#">Mordern Technology</a>
+                  </li>
+                  <li>
+                    <a href="#">Cancer Research</a>
+                  </li>
+                  <li>
+                    <a href="#">BioInformatics</a>
+                  </li>
+                  <li>
+                    <a href="#">Hospital Events</a>
+                  </li>
+                  <li>
+                    <a href="#">Student Success</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="blog-details-tags">
+                <h3>Tags</h3>
+                <ul>
+                  <li>
+                    <a href="#">Dental</a>
+                  </li>
+                  <li>
+                    <a href="#">Health</a>
+                  </li>
+                  <li>
+                    <a href="#">Child</a>
+                  </li>
+                  <li>
+                    <a href="#">Medicine</a>
+                  </li>
+                  <li>
+                    <a href="#">Caveti</a>
+                  </li>
+                  <li>
+                    <a href="#">AIDS</a>
+                  </li>
+                  <li>
+                    <a href="#">Dental</a>
+                  </li>
+                  <li>
+                    <a href="#">Health</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="blog-area-two">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Latest Blogs</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+            <div class="blog-item">
+              <div class="blog-top">
+                <a href="blog-details4.html">
+                  <img src="assets/img/home-one/dRINK.png" alt="Blog" />
+                </a>
+              </div>
+              <div class="blog-bottom">
+                <h3>
+                  <a href="blog-details4.html">Are we drinking enough water?</a>
+                </h3>
+                <p>
+                  Water is essential for our overall health and wellbeing. It
+                  helps regulate body temperatu....
+                </p>
+                <ul>
+                  <li>
+                    <a href="blog-details4.html">
+                      Read More
+                      <i class="icofont-long-arrow-right"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <i class="icofont-calendar"></i>
+                    APR 21, 2023
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
+            <div class="blog-item">
+              <div class="blog-top">
+                <a href="blog-details.html">
+                  <img src="assets/img/home-one/Health.png" alt="Blog" />
+                </a>
+              </div>
+              <div class="blog-bottom">
+                <h3>
+                  <a href="blog-details.html">Health Tips</a>
+                </h3>
+                <p>
+                  If you eat or drink more than your body needs, you'll put on
+                  weight because the energy yo....
+                </p>
+                <ul>
+                  <li>
+                    <a href="blog-details.html">
+                      Read More
+                      <i class="icofont-long-arrow-right"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <i class="icofont-calendar"></i>
+                    Jan 03, 2020
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4 wow fadeInUp"
+            data-wow-delay=".7s"
+          >
+            <div class="blog-item">
+              <div class="blog-top">
+                <a href="blog-details2.html">
+                  <img src="assets/img/home-one/Electronic.webp" alt="Blog" />
+                </a>
+              </div>
+              <div class="blog-bottom">
+                <h3>
+                  <a href="blog-details2.html">Electronic Health Record</a>
+                </h3>
+                <p>
+                  Covid shook the world like never before. Making it more and
+                  more paperless. Digitalization beca....
+                </p>
+                <ul>
+                  <li>
+                    <a href="blog-details2.html">
+                      Read More
+                      <i class="icofont-long-arrow-right"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <i class="icofont-calendar"></i>
+                    DEC 08, 2022
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pb-70">
+      <div class="container">
+        <div class="footer-row">
+          <div class="col-sm-6 col-lg-4">
+            <div class="footer-item">
+              <div class="footer-contact">
+                <a href="index.html"
+                  ><img
+                    src="assets/img/icon/icon-footer-dark.png"
+                    alt="Logo"
+                    height="120"
+                /></a>
+                <br />
+                <h4>Adding Digital Quotient to Healthcare</h4>
+                <ul class="socials">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100089553258644"
+                      ><i class="icofont-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/healthdetails_hd/"
+                      ><i class="icofont-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/@healthdetails2491"
+                      ><i class="icofont-youtube"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/dqcare/"
+                      ><i class="icofont-linkedin"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-2">
+            <div class="footer-item">
+              <div class="footer-quick">
+                <h3>Our Company</h3>
+                <ul>
+                  <li>
+                    <a href="about.html">About</a>
+                  </li>
+                  <li>
+                    <a href="product.html">Our Products & Services</a>
+                  </li>
+                  <li>
+                    <a href="testimonials.html">Testimonials</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-2">
+            <div class="footer-item">
+              <div class="footer-quick">
+                <h3>Support</h3>
+                <ul>
+                  <li>
+                    <a href="faq.html">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="terms-condition.html">Terms & Conditions</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <div class="footer-quick">
+                <h3>Get Our App Now</h3>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.healthdetails.patient"
+                  ><img src="assets/img/play-store.png" alt="Image"
+                /></a>
+                <a
+                  href="https://apps.apple.com/in/app/healthdetails-patient/id6450669239"
+                  ><img src="assets/img/apple-store.png" alt="Image"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright-area">
+      <div class="container">
+        <div class="copyright-item">
+          <p>
+            Copyright @
+            <script
+              data-cfasync="false"
+              src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+            ></script>
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            DQcare. Powered By
+            <a href="https://wictronix.com/" target="_blank"
+              ><img
+                style="
+                  width: 10rem;
+                  background-color: antiquewhite;
+                  padding: 6px;
+                  border-radius: 10px;
+                "
+                src="./assets/img/black&blue.png"
+            /></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
