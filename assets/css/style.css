@@ -3844,6 +3844,10 @@ footer {
   border: 0;
 }
 
+h3.faq-head{
+  text-transform: capitalize;
+}
+
 .faq-head h2 {
   margin-bottom: 35px;
   font-weight: 600;
